@@ -1,3 +1,4 @@
+import "./style.css"
 import { useState } from "react"
 const initialState = true;
 export default function UseState() {
@@ -10,7 +11,7 @@ export default function UseState() {
 
     return(
         <div>
-            <div>
+            <div className="heading">
                 Hello use State
             </div>
             <div>

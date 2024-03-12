@@ -1,5 +1,5 @@
 /* this example shows different ways to implement useState hook and function calling in React. */
-
+import "./style.css"
 import { useState } from "react";
 const initalState = {
     name: "",
@@ -24,7 +24,7 @@ export default function UseStateDemo () {
     console.log(formData);
     return (
         <>
-            <div>another example to use the useState hook</div>
+            <div className="heading">another example to use the useState hook</div>
             {/* <input onChange={handleNameChange} type="text" name="name" placeholder="Enter Name" /> */}
             <input onChange={(event) => {
                 setFormData({
