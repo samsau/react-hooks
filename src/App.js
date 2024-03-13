@@ -4,7 +4,7 @@ import UseReduceDemo from "./components/useReduce/useReduceDemo";
 import UseRefDemo from "./components/useRefDemo/useRefDemo";
 import UseState from "./components/useState/useState";
 import UseStateDemo from "./components/useState/useStateDemo";
-
+import UseLayoutHook from "./components/useLayoutHook/useLayoutHook";
 function App() {
 	return (
 		<div className="App">
@@ -17,6 +17,8 @@ function App() {
 			<UseReduceDemo />
 			<br />
 			<UseRefDemo />
+			<br />
+			<UseLayoutHook />
 		</div>
 	);
 }
